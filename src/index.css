@@ -1,0 +1,83 @@
+:root {
+--dark-color: #22242c;
+--green-color: #307451;
+--purple-color: #314159;
+--blue-color: #0099ff;
+--dark-bg: #0a0a0d;
+--light-bg: #ffffff;
+--dark-logan: #2a2a2b;
+}
+
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+}
+
+html { 
+scroll-behavior: smooth;
+} 
+
+body {
+margin: 0px;
+font-family: "Maven Pro";
+background: #181919;
+color: #fff;
+}
+
+body::-webkit-scrollbar {
+width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+background: #6a6a6a90;       /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: rgb(138, 121, 121);    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 0.1px solid #6a6a6a50;  /* creates padding around scroll thumb */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff80;
+}
+
+.wrapper {
+    max-width: 708px;
+    margin: 0 auto;
+  }
+
+  .lazy-load-image-background.blur.lazy-load-image-loaded {
+    filter: blur(0);
+    transition: filter 100ms;
+}
+
+.lazy-load-image-background.blur {
+    filter: blur(15px);
+    transition: filter 400ms;
+}
+
+  .lazy-load-image-background.blur.lazy-load-image-loaded > img {
+    opacity: 1;
+    transition: opacity 400ms;
+  }
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 20px;
+    }
+}
