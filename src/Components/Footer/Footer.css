@@ -1,0 +1,30 @@
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px 50px 50px;
+    color: #ffffff60;
+}
+
+.footer-section a {
+    color: #ffffff60;
+}
+
+.foo h3 {
+    font-weight: 400;
+    color: #ffffff60;
+}
+
+.foo-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #ffffff60;
+}
+
+.foo-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #ffffff60;
+}
