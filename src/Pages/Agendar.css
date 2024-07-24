@@ -1,0 +1,330 @@
+.agendar-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agendar-header h4 {
+    font-weight: 500;
+}
+
+.agendar-itens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.agendar {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 15px 0;
+    gap: 10px;
+}
+
+.agendar2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 15px 0;
+    gap: 10px;
+}
+
+.horario-mobile {
+    display: none;
+}
+
+.box {
+    background: #2A2A2B;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.box h3 {
+    font-weight: 500;
+    text-align: center;
+    margin: 4px 0;
+}
+
+.horario {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 15px 15px;
+}
+
+.horario2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 15px 15px;
+    margin-bottom: 0px;
+}
+
+.box2 {
+    background: #2A2A2B;
+    border-radius: 15px;
+    padding: 10px 15px 0 15px;
+}
+
+.box2 h3 {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.map {
+    display: flex;
+}
+
+.map img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.map h3 {
+    position: absolute;
+    color: rgb(58, 49, 49);
+    margin-left: 15px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 150px;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background-color: #2A2A2B50;
+    padding: 15px 15px;
+    margin: 0 15px 15px 0;
+    border-radius: 10px;
+}
+
+.media2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background-color: #2A2A2B50;
+    padding: 15px 15px;
+    margin: 0 0px 15px 15px;
+    border-radius: 10px;
+}
+
+
+.svg {
+    margin-bottom: 20px;
+}
+
+.media p {
+    margin: 0 0 10px 0;
+}
+
+.instagram {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 2px 12px;
+    font-weight: 500;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+    transition: border-color 0.25s;
+    margin-bottom: 15px;
+    margin: 0;
+  }
+  
+  .instagram:hover {
+    border-color: #646cff;
+  }
+  
+  .instagram:focus,
+  .instagram:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  
+.by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.by h4 {
+    font-weight: 500;
+    color: #ffffff90;
+}
+
+@media (max-width: 768px) {
+    .agendar-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    
+    .agendar-header h4 {
+        font-weight: 500;
+    }
+    
+    .agendar-itens {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 15px;
+    }
+    
+    .agendar {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 15px 0;
+        gap: 10px;
+    }
+
+    .agendar2 {
+        display: none;
+        flex-direction: column;
+        padding: 0px 0px 15px 0;
+        gap: 10px;
+    }
+
+    .horario-mobile {
+        display: flex;
+    }
+
+    .horario-pc {
+        display: none;
+    }
+    
+    .box {
+        background: #2A2A2B;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    
+    .box h3 {
+        font-weight: 500;
+        text-align: center;
+        margin: 4px 0;
+    }
+    
+    .horario {
+        display: none;
+        flex-direction: column;
+        padding: 0 0 15px 15px;
+    }
+
+    .horario2 {
+        margin-bottom: 15px;
+        padding: 0 0 15px 0px;
+    }
+    
+    .box2 {
+        background: #2A2A2B;
+        border-radius: 15px;
+        padding: 10px 15px 0 15px;
+    }
+    
+    .box2 h3 {
+        font-weight: 300;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    
+    .map {
+        display: flex;
+    }
+    
+    .map img {
+        width: 100%;
+        border-radius: 15px;
+        margin: 10px 0;
+    }
+    
+    .map h3 {
+        position: absolute;
+        color: rgb(58, 49, 49);
+        margin-left: 15px;
+        margin-top: 16px;
+        font-weight: 600;
+    }
+    
+    .social {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 150px;
+        padding: 0 15px;
+    }
+    
+    .media {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        background-color: #2A2A2B50;
+        padding: 15px 15px;
+        margin: 0 15px 15px 0;
+        border-radius: 10px;
+    }
+    
+    .media2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        background-color: #2A2A2B50;
+        padding: 15px 15px;
+        margin: 0 0px 15px 0px;
+        border-radius: 10px;
+    }
+    
+    .svg {
+        margin-bottom: 20px;
+    }
+    
+    .media p {
+        margin: 0 0 10px 0;
+    }
+    
+    .instagram {
+        border-radius: 6px;
+        border: 1px solid transparent;
+        padding: 2px 12px;
+        font-weight: 500;
+        background-color: blueviolet;
+        cursor: pointer;
+        color: white;
+        transition: border-color 0.25s;
+        margin-bottom: 15px;
+        margin: 0;
+      }
+      
+      .instagram:hover {
+        border-color: #646cff;
+      }
+      
+      .instagram:focus,
+      .instagram:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+      }
+      
+      
+    .by {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .by h4 {
+        font-weight: 500;
+        color: #ffffff90;
+    }
+    
+}
